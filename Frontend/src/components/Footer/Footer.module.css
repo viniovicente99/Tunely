@@ -1,0 +1,21 @@
+.ancizar-sans {
+  font-family: "Ancizar Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.footer {
+    position: fixed bottom;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.footer h2 {
+    font-family: "Ancizar Sans";
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+}

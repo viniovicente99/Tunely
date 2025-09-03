@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ancizar-sans-uniquifier {
+  font-family: "Ancizar Sans";
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.header {
+    background-color: black;
+    border-bottom: 4px solid transparent;
+    border-top: 6px solid transparent;
+    border-image: linear-gradient(45deg, #5738ac, #000000, #8f46a5) 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.header span {
+    font-family: "Righteous", sans-serif;
+    font-size: 3rem;
+    color: #9563f1;
+    margin-top: 4.5px;
+    font-weight: 600;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+.header span:hover{
+    color:#ffffff;
+}
+
+.header a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    animation: pulse 0.6s ease infinite alternate;
+}
+
+.header a:focus,
+.header a:active {
+  text-decoration: none;
+  outline: none; 
+}
+
+.header nav{
+    padding: 15px;
+}
+
+.headerIcons{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2rem;
+    padding-inline: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 17px;
+    
+    
+}
+
+.headerIcons:hover {
+    color: #9563f1;
+    animation: pulse 0.6s ease infinite alternate;
+}
+
+@keyframes pulse {
+    from { transform: scale(1); }
+    to { transform: scale(1.3); }
+}
