@@ -6,7 +6,6 @@ const getArtistInfo = require('./getArtist');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-
 app.get('/api/artist', async (req, res) => {
   const { name } = req.query;
   if (!name) {
@@ -28,7 +27,6 @@ app.use(express.static(path.join(__dirname, '../Frontend/build')));
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../Frontend/build', 'index.html'));
 });
-
 
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
